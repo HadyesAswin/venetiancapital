@@ -16,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&amp;family=Barlow:wght@400&amp;family=Gilda+Display&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/plugins.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons/css/all/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.14.0/font/bootstrap-icons.css">
 
 <style>
     /* --- SCOPED CSS --- */
@@ -96,6 +99,46 @@
     .custom-destinations-grid .dest-card:hover h5 {
         color: #d39e00; 
     }
+
+/* watsapp */
+
+.whatsapp-float,
+.whatsapp-float:hover,
+.whatsapp-float:focus,
+.whatsapp-float:active,
+.whatsapp-float:visited {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366 !important;
+    color: #fff !important;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    z-index: 9999;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
+    text-decoration: none !important;
+
+    /* 🔒 HARD LOCK */
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+    filter: none !important;
+}
+.whatsapp-float i,
+.whatsapp-float:hover i {
+    color: #fff !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+
+
+
 </style>
 
 </head>
@@ -146,7 +189,7 @@
     <!-- Slider -->
     <header class="header slider-fade">
     <div class="owl-carousel owl-theme">
-        <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/room/room1.JPG">
+        <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/gallery/DSC02522.JPG">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
@@ -192,7 +235,7 @@
             </div>
         </div>
 
-        <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/gallery/DSC02522.JPG">
+        <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/room/room1.JPG">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
@@ -309,13 +352,13 @@
                 </span>
                 <div class="section-subtitle">Venetian Capital, Alappuzha</div>
                 <div class="section-title">Where Comfort Meets Tranquility</div>
-                <p>Welcome to Venetian Capital,your premium stay nestled in Pallathuruth, Alappuzha. Enjoy a peaceful and refreshing atmosphere with elegantly designed rooms and modern amenities crafted to make your stay memorable.</p>
+                <p>Welcome to Venetian Capital,your premium stay nestled at the gateway of Pallathuruthy, Alappuzha. Enjoy a peaceful and refreshing atmosphere with elegantly designed rooms and modern amenities crafted to make your stay memorable.</p>
                 <p>Whether you're here for leisure or business, Venetian Capital offers warm hospitality, comfortable spaces, and a relaxing environment surrounded by the serene charm of Alappuzha.</p>
                 
                 <div class="reservations">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p>Reservation</p> <a href="tel:855-100-4444">855 100 4444</a>
+                        <p>Reservation</p> <a href="tel:+91 9633877550">+91 9633877550</a>
                     </div>
                 </div>
             </div>
@@ -342,11 +385,11 @@
 
             <div class="col-md-4">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/room/room1.jpg" alt=""> </div> 
-                    <span class="category"><a href="rooms2.html">Book</a></span>
+                    <div class="position-re o-hidden"> <img src="img/room/room7.JPG" alt=""> </div> 
+                    
                     <div class="con">
                         <!-- <h6><a href="room-details.html">₹3500 / Night</a></h6> -->
-                        <h5><a href="room-details.html">Deluxe Room</a></h5>
+                        <h5><a href="">Deluxe Room</a></h5>
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col col-md-7">
@@ -367,11 +410,11 @@
 
             <div class="col-md-4">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/room/room2.JPG" alt=""> </div> 
-                    <span class="category"><a href="rooms2.html">Book</a></span>
+                    <div class="position-re o-hidden"> <img src="img/room/premium3.JPG" alt=""> </div> 
+                    <!-- <span class="category"><a href="rooms2.html">Book</a></span> -->
                     <div class="con">
                         <!-- <h6><a href="room-details.html">₹4500 / Night</a></h6> -->
-                        <h5><a href="room-details.html">Premium Room</a></h5>
+                        <h5><a href="">Premium Room</a></h5>
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col col-md-7">
@@ -392,11 +435,11 @@
 
             <div class="col-md-4">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/room/room3.JPG" alt=""> </div> 
-                    <span class="category"><a href="rooms2.html">Book</a></span>
+                    <div class="position-re o-hidden"> <img src="img/room/luxury4.JPG" alt=""> </div> 
+                    <!-- <span class="category"><a href="rooms2.html">Book</a></span> -->
                     <div class="con">
                         <!-- <h6><a href="room-details.html">₹5000 / Night</a></h6> -->
-                        <h5><a href="room-details.html">Luxury Room</a></h5>
+                        <h5><a href="">Luxury Room</a></h5>
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col col-md-7">
@@ -415,55 +458,6 @@
                 </div>
             </div>
 
-            <!-- <div class="col-md-6">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/room/room4.JPG" alt=""> </div> 
-                    <span class="category"><a href="rooms2.html">Book</a></span>
-                    <div class="con">
-                        <h6><a href="room-details.html">₹6000 / Night</a></h6>
-                        <h5><a href="room-details.html">Deluxe Room</a></h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col col-md-7">
-                                <ul>
-                                    <li><i class="flaticon-bed"></i></li>
-                                    <li><i class="flaticon-bath"></i></li>
-                                    <li><i class="flaticon-breakfast"></i></li>
-                                    <li><i class="flaticon-towel"></i></li>
-                                </ul>
-                            </div>
-                            <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- <div class="col-md-6">
-                <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/room/room5.JPG" alt=""> </div> 
-                    <span class="category"><a href="rooms2.html">Book</a></span>
-                    <div class="con">
-                        <h6><a href="room-details.html">₹3800 / Night</a></h6>
-                        <h5><a href="room-details.html">Superior Room</a></h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col col-md-7">
-                                <ul>
-                                    <li><i class="flaticon-bed"></i></li>
-                                    <li><i class="flaticon-bath"></i></li>
-                                    <li><i class="flaticon-breakfast"></i></li>
-                                    <li><i class="flaticon-towel"></i></li>
-                                </ul>
-                            </div>
-                            <div class="col col-md-5 text-end">
-                                <div class="permalink"><a href="room-details.html">Details <i class="ti-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <div class="row mt-40">
     <div class="col-12 text-center animate-box" data-animate-effect="fadeInUp">
         <div class="butn-dark">
@@ -483,7 +477,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-subtitle">Our Services</div>
-                <div class="section-title">Hotel Facilities</div>
+                <div class="section-title">What We Offer</div>
             </div>
         </div>
         <div class="row">
@@ -499,7 +493,8 @@
 
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
-                    <span class="flaticon-car"></span>
+                     <span ><i class="fa-solid fa-square-parking"></i></span>
+
                     <h5>Parking Space</h5>
                     <p>Safe and secure parking area available for all guests staying at Venetian Capital.</p>
                     <div class="facility-shape"><span class="flaticon-car"></span></div>
@@ -508,16 +503,17 @@
 
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
-                    <span class="flaticon-bed"></span>
-                    <h5>Room Service</h5>
-                    <p>Enjoy prompt room service with attentive staff ready to assist you anytime.</p>
-                    <div class="facility-shape"><span class="flaticon-bed"></span></div>
+                    <span class="flaticon-car"></span>
+                    <h5>Taxi Services</h5>
+                    <p>Reliable taxi arrangements for local sightseeing and long-distance travel across Kerala.</p>
+                    <div class="facility-shape"><span class="flaticon-location-1"></span></div>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
-                    <span class="flaticon-swimming"></span>
+                    <span class="fa-solid fa-water-ladder"></span>
+                    
                     <h5>Relaxation Space</h5>
                     <p>Calm outdoor seating area perfect for relaxing after exploring Alappuzha.</p>
                     <div class="facility-shape"><span class="flaticon-swimming"></span></div>
@@ -535,16 +531,18 @@
 
             <div class="col-md-4">
                 <div class="single-facility animate-box" data-animate-effect="fadeInUp">
-                    <span class="flaticon-breakfast"></span>
-                    <h5>Breakfast</h5>
-                    <p>Start your day with a fresh and delightful breakfast served every morning.</p>
-                    <div class="facility-shape"><span class="flaticon-breakfast"></span></div>
+                    <span class="fa fa-ship"></span>
+                    
+                    <h5>Houseboat Tourism</h5>
+                    <p>Experience the scenic backwaters of Alappuzha with our exclusive houseboat booking services.</p>
+                    <div class="facility-shape"><span class="flaticon-map"></span></div>
                 </div>
             </div>
 
         </div>
     </div>
     </section>
+
 
     <!-- Pricing -->
     <!-- <section class="pricing section-padding bg-blck">
@@ -632,7 +630,7 @@
             <div class="row">
             <div class="col-md-12">
                 <div class="section-subtitle">Our Activities</div>
-                <div class="section-title">Hotel Activities</div>
+                <div class="section-title">Things to Do</div>
             </div>
         </div>
             <div class="row">
@@ -684,7 +682,53 @@
                         <a href=""><img src="img/activity/set2.webp" alt=""></a>
                     </div>
                 </div>
-            </div>            
+            </div> 
+            <div class="row">
+                <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="img left">
+                        <a href=""><img src="img/activity/activityboat.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
+                    <div class="content">
+                        <div class="cont text-left">
+                            <div class="info">
+                                <h6>Discover</h6>
+                            </div>
+                            <h4>Houseboat Cruise</h4>
+                            <p>
+                                Drift through the serene backwaters of Alappuzha aboard a traditional Kerala houseboat.
+                                Enjoy calm waterways, lush coconut groves, and timeless village life while experiencing
+                                a peaceful and memorable cruise that showcases the true charm of God’s Own Country.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 bg-cream p-0 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                    <div class="content">
+                        <div class="cont text-left">
+                            <div class="info">
+                                <h6>Experience</h6>
+                            </div>
+                            <h4>Authentic Kerala Massage</h4>
+                            <p>
+                                Rejuvenate your body and mind with traditional Kerala Ayurvedic massage therapies.
+                                Performed by trained professionals using natural oils and age-old techniques,
+                                this relaxing experience restores balance, relieves stress, and enhances overall wellness.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
+                    <div class="img">
+                        <a href=""><img src="img/activity/activitymassage.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>  
+        
         </div>
     </section>
      
@@ -1053,6 +1097,19 @@
         </div>
     </section> -->
     <!-- Footer -->
+
+
+
+    <a href="https://wa.me/919633977550?text=I%20would%20like%20to%20know%20the%20details%20about%20your%20rooms"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+
+
+
     <footer class="footer">
     <div class="footer-top">
         <div class="container">
@@ -1099,9 +1156,12 @@
                         </p>
                         <div class="footer-contact-info">
                             <p class="footer-contact-phone">
-                                <span class="flaticon-call"></span> +91 9847777550
+                                <span class="flaticon-call"></span> +91 9633977550
                             </p>
-                            <p class="footer-contact-mail">venetian.capital.alleppey@gmail.com</p>
+                            <p class="footer-contact-phone">
+                                <span class="flaticon-call"></span> +91 9633877550
+                            </p>
+                            <p class="footer-contact-mail"><a href="mailto:venetian.capital.alleppey@gmail.com">venetian.capital.alleppey@gmail.com</a></p>
                         </div>
 
                         <div class="footer-about-social-list">
