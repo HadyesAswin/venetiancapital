@@ -1913,6 +1913,13 @@ hr {
 /* ======= Page Banner Header style ======= */
 .banner-header {
     height: 60vh;
+    /* background-size: contain !important; 
+    background-position: center center;
+    background-repeat: no-repeat; */
+
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .banner-header.full-height{

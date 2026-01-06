@@ -60,6 +60,40 @@
 
 
 
+
+.intro-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* Kill the extra gap created between the two columns */
+    .row.mb-40 {
+        margin-bottom: 15px;
+    }
+
+    .row.mb-40 > .col-sm-6 {
+        margin-bottom: 0;
+    }
+
+    .row.mb-40 ul {
+        margin-bottom: 0;
+    }
+
+    .row.mb-40 ul li {
+        margin-bottom: 6px;
+        line-height: 2;
+        font-size: 15px;
+    }
+}
+
+
+
     </style>
 </head>
 <body>
@@ -71,11 +105,11 @@
         </div>
     </div>
     <!-- Progress scroll totop -->
-    <div class="progress-wrap cursor-pointer">
+    <!-- <div class="progress-wrap cursor-pointer">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
-    </div>
+    </div> -->
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -107,7 +141,7 @@
         </div>
     </nav>
     <!-- Header Banner -->
-    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="img/gallery/DSC02519-2.JPG">
+    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/about_slider.JPG">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 caption mt-90">
@@ -132,9 +166,13 @@
             
             <div class="col-md-6 mb-30"> 
                 <h3 class="mb-20">Experience Comfort & Serenity in Alappuzha</h3>
-                <p class="mb-20 lead" style="font-size: 18px;">Welcome to Venetian Capital. We offer well-designed rooms, modern amenities, and warm hospitality to make your visit relaxing and memorable.</p>
+                <p class="intro-text mb-20">
+    Welcome to Venetian Capital. We offer well-designed rooms, modern amenities, and warm hospitality to make your visit relaxing and memorable.
+</p>
                 
-                <p class="mb-30">Whether you're here for leisure, family travel, or business, Venetian Capital provides a calm environment, easy accessibility, and a pleasant ambience that reflects the beauty of Kerala’s backwaters.</p>
+                <p class="intro-text mb-30">
+    Whether you're here for leisure, family travel, or business, Venetian Capital provides a calm environment, easy accessibility, and a pleasant ambience that reflects the beauty of Kerala’s backwaters.
+</p>
                 
                 <div class="row mb-40">
                     <div class="col-sm-6">
@@ -175,7 +213,7 @@
                     </div>
                     
                     <div class="col-6 pl-15">
-                         <img src="img/room/room6.JPG" alt="Amenities" 
+                         <img src="img/gallery/aboutbed.jpeg" alt="Amenities" 
                               style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
                     </div>
                 </div>
